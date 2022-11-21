@@ -1,0 +1,58 @@
+body {
+    background-image: url(background-purple.jpg); 
+    position:absolute; 
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: deeppink;
+    text-shadow: 3px 3px blue;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    margin-left: 650px;
+    border: 3px solid deeppink;
+    text-align: center;
+    background-color: aqua;
+    margin-top:100px;   
+}
+
+.login-container {
+    height: 400px;
+    width: 400px;
+    margin-left: 750px;
+    border: 3px solid deeppink;
+    text-align: center;
+    background-color: aqua;
+    margin-top:150px;    
+}
+label {
+    font-size: 20px;
+    color: darkmagenta;
+}
+
+button {
+    background-color:lightpink;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+.button:hover span {
+    padding-right: 25px;
+    background-color: chartreuse;
+}
+
+placeholder {
+    height: 60px;
+    width: 300px;
+    
+}
+
+
+
